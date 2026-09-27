@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plain Language Product Copy"
+  short_description: "Turn product jargon into clear, trustworthy English"
+  default_prompt: "Rewrite this product-facing text in plain English while preserving facts, limits, and user dignity."

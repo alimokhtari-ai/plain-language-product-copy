@@ -1,0 +1,19 @@
+name: Improvement proposal
+description: Propose a focused improvement grounded in a real reader problem.
+title: "proposal: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Reader problem
+      description: Who experiences this problem, and where?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the smallest useful change and any trade-offs.
+    validations:
+      required: true
